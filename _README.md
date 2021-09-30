@@ -1,1 +1,1 @@
-!WEBSITE URL[https://thexgamelord.github.io/]
+![WEBSITE URL](https://thexgamelord.github.io/)
