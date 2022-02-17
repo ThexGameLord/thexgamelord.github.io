@@ -1,0 +1,4 @@
+---
+title: TXGL | Lockdown
+permalink: /*/
+---
