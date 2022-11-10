@@ -1,5 +1,5 @@
 ---
-permalink: /TXBM
+permalink: /T/X
 ---
 <html>
 <head>
