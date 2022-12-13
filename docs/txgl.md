@@ -3,8 +3,6 @@ title: Home
 permalink: /
 ---
 
-<link rel="stylesheet" href="/docs/css/txgl.css">
-
 ## Hello welcome to Thexgamelord Repo
 
 This page is under construction
