@@ -5,7 +5,7 @@ permalink: /
 
 <h1> Hello welcome to Thexgamelord's Repo the home of all my main projects</h1>
 
-This page is under construction
+This page is still under construction
 
 
 | Project | Description                                                   | Download |
@@ -15,3 +15,5 @@ This page is under construction
 | Project | Description                                                   | Download |
 | --------- | ------------------------------------------------------------- | ----------- |
 | IIO | With **IsItOnline** you can quickly check if a webservice is online more info -> [here](https://thexgamelord.github.io/iio) | [repo](https://github.com/ThexGameLord/IIO) |
+
+<script>alert("Thank you for visiting my repo some of these projects may have bugs please be sure to report them in the issues section on their linked repository thank you!")</script>
