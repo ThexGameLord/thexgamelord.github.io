@@ -3,7 +3,7 @@ title: Home
 permalink: /
 ---
 
-<h1> Hello welcome to Thexgamelord Repo </h1>
+<h1> Hello welcome to Thexgamelord's Repo the home of all my main projects</h1>
 
 This page is under construction
 
