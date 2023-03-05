@@ -8,7 +8,7 @@ permalink: /
 This page is still under construction
 
 
-| Project | Description                                                   | Source the project |
+| Project | Description                                                   | Download |
 | --------- | ------------------------------------------------------------- | ----------- |
 | MSAS | Make MC servers faster to Setup with MinecraftServerAutoSetup. on Windows and Linux | [Homepage](https://msas-txgl.pages.dev/) |
 | IIO | With **IsItOnline** you can quickly check if a webservice is online more info -> [here](https://thexgamelord.github.io/iio) | [repo](https://github.com/ThexGameLord/IIO) |
