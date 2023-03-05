@@ -1,6 +1,6 @@
 ---
 title: TXGL | secret page
-permalink: /5458474c
+permalink: /14
 ---
 <H>I LOVE YOU!! ❤</H>
 
