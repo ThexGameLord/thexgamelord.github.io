@@ -138,11 +138,16 @@
   
 
 <script>
-    window.onload = function() {
      var audio1 = document.getElementById('audio1');
      var audio2 = document.getElementById('audio2');
-     audio1.play();
-     audio2.play();
-     }
+      document.addEventListener('click', function() {
+      playAudio();
+      document.removeEventListener('click', arguments.callee);
+    });
+
+    function playAudio() {
+      audio1.play();
+      audio2.play();
+    }
   </script>
 </body></html>
