@@ -18,10 +18,70 @@
 <meta name="theme-color" content="light dark">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+      <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      font-family: 'Courier New', monospace;
+    }
+
+    #matrix {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: green;
+      font-size: 16px;
+      line-height: 1;
+      text-shadow: 0 0 4px #00ff00;
+    }
+  </style>
+    
   </head>
 
   <body class="">
-      
+      <div id="matrix"></div>
+<noscript>JavaScript is disabled. Please enable JavaScript to view the Matrix rain effect.</noscript>
+
+  <script>
+    var matrixContainer = document.getElementById('matrix');
+    var text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-=_+';
+    var columns = Math.floor(window.innerWidth / 15);
+    var drops = [];
+
+    for (var i = 0; i < columns; i++) {
+      drops[i] = Math.floor(Math.random() * window.innerHeight);
+    }
+
+    function draw() {
+      matrixContainer.innerHTML = '';
+
+      for (var i = 0; i < drops.length; i++) {
+        var column = document.createElement('span');
+        column.style.position = 'absolute';
+        column.style.top = drops[i] + 'px';
+        column.style.left = (i * 15) + 'px';
+        column.textContent = text[Math.floor(Math.random() * text.length)];
+        matrixContainer.appendChild(column);
+
+        if (drops[i] > window.innerHeight) {
+          drops[i] = 0;
+        }
+
+        drops[i] += Math.random() * 2;
+      }
+    }
+
+    setInterval(draw, 50);
+  </script>
 
     <div class="wrapper">
       <section class="no-header">
