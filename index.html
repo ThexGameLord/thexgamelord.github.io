@@ -145,9 +145,14 @@
       document.removeEventListener('click', arguments.callee);
     });
 
-    function playAudio() {
-      audio1.play();
-      audio2.play();
+    function startAudio() {
+      setTimeout(function() {
+        audio1.play();
+        setTimeout(function() {
+          audio2.play();
+        }, 9000); // Wait for 9 seconds before playing audio2
+      }, 0); // Delay the audio playback to ensure it starts after the click event
+    }
     }
   </script>
 </body></html>
