@@ -38,6 +38,8 @@
   {"type": "p", "name": "wiinat.natneg1.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "wiinat.natneg2.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "wiinat.natneg3.gs.wiimmfi.de", "value": "192.168.1.203"},
+  {"type": "p", "name": "ca.nas.wiimmfi.de", "value": "192.168.1.203"},
+  {"type": "p", "name": "mariokartwii.available.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.gamestats.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.gamestats2.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.available.gs.wiimmfi.de", "value": "192.168.1.203"},
