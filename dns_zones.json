@@ -43,6 +43,7 @@
   {"type": "p", "name": "mariokartwii.natneg1.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "mariokartwii.natneg2.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "mariokartwii.natneg3.gs.wiimmfi.de", "value": "192.168.1.203"},
+  {"type": "p", "name": "mariokartwii.master.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.gamestats.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.gamestats2.gs.wiimmfi.de", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.available.gs.wiimmfi.de", "value": "192.168.1.203"},
