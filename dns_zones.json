@@ -12,6 +12,8 @@
   {"type": "p", "name": "wiinat.natneg1.gs.nintendowifi.net", "value": "192.168.1.203"},
   {"type": "p", "name": "wiinat.natneg2.gs.nintendowifi.net", "value": "192.168.1.203"},
   {"type": "p", "name": "wiinat.natneg3.gs.nintendowifi.net", "value": "192.168.1.203"},
+  {"type": "p", "name": "nncs1.app.nintendowifi.net", "value": "nncs1.app.nintendowifi.net"},
+  {"type": "p", "name": "nncs2.app.nintendowifi.net", "value": "nncs2.app.nintendowifi.net"},
   {"type": "p", "name": "monhunter3wii.gamestats.gs.nintendowifi.net", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.gamestats2.gs.nintendowifi.net", "value": "192.168.1.203"},
   {"type": "p", "name": "monhunter3wii.available.gs.nintendowifi.net", "value": "192.168.1.203"},
