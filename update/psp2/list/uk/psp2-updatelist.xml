@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update_data_list>
+<region id="uk">
+<np level0_system_version="01.600.000" level1_system_version="09.990.000" level2_system_version="09.990.000" map="09.990.000" />
+<np_d level0_system_version="01.600.000" level1_system_version="09.990.000" level2_system_version="09.990.000" map="09.990.000" />
+<version system_version="09.990.000" label="9.99">
+<update_data update_type="full">
+<image size="0">http://192.168.1.203/update/psp2/image/2022_0209/rel_f2c7b12fe85496ec88a0391b514d6e3b/PSP2UPDAT.PUP?dest=uk</image>
+</update_data>
+</version>
+<recovery spkg_type="systemdata">
+<image spkg_version="01.000.010" size="0">http://192.168.1.203/update/psp2/image/2022_0209/sd_59dcf059d3328fb67be7e51f8aa33418/PSP2UPDAT.PUP?dest=uk</image>
+</recovery>
+<recovery spkg_type="preinst">
+<image spkg_version="01.000.000" size="0">http://192.168.1.203/update/psp2/image/2022_0209/pre_efd1ef6c1cc2fe92e72e9e783e421237/PSP2UPDAT.PUP?dest=uk</image>
+</recovery>
+</region>
+</update_data_list>
