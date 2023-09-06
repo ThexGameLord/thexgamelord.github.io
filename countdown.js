@@ -10,9 +10,11 @@ if (targetDateString && eventName) {
 
     // Update the meta description with the event name
     const metaDescription = document.getElementById('meta-description');
-    const metaTitle = document.getElementById('meta-title');
     metaDescription.setAttribute('content', `A friend sent this countdown for ${eventName}`);
-    metaTitle.setAttribute('content', `${eventName} countdown`);
+
+    // Update the title of the page with the event name
+    const pageTitle = document.getElementById('meta-title');
+    pageTitle.textContent = `${eventName} Countdown`;
 
     function updateCountdown() {
         const currentDate = new Date().getTime();
