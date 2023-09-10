@@ -55,7 +55,7 @@ var firmware = "";
 if( agent.indexOf("PlayStation Vita") !== -1 ) {
     firmware = agent.substring(agent.indexOf("5.0 (") + 22, agent.indexOf(") Apple"));
     console.log(firmware);
-    window.location.href = '/vita';
+    window.location.href = '/vita/';
 } else { 
     console.log("no vita detected by user agent");
 }
