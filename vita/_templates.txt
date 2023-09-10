@@ -1,0 +1,40 @@
+			<!-- CHANGELOG -->	
+			<div id="page_changes" style="display:none;">
+				<!-- Headline & Logo -->
+				<p class="headertext">Thexgamelord Vita page</p>
+				<hr class="line_top"><hr class="line_bot">
+				<!-- Content -->
+				<div class="contentcontainer"> <!-- -->
+					<div class="scrollbox">
+						<h1>New Features in Version 1.04</h1>
+						<pre>
+ - Fixed support for activated devkits/testkits
+ - Added support for firmware version 3.67
+ - Improved bootstrap menu navigation feedback
+						</pre>
+						<h1>New Features in Version 1.03</h1>
+						<pre>
+ - HENlo now bypasses henkaku version spoof
+ - Added this landing page ( hello world! )
+ - Added an option to mount sd2vita to ux0
+ - Moved downloadable content to a different server
+ - Changed HENlo url to jailbreak.psp2.dev
+						</pre>
+						<h1>New Features in Version 1.02</h1>
+						<pre>
+ - Fixed vs0 remount during NEAR replace/restore
+						</pre>
+						<h1>New Features in Version 1.01</h1>
+						<pre>
+ - Attempt to fix NEAR replace issues
+ - More verbose errors
+ - PS Button is now locked while in the bootstrap menu
+						</pre>
+						<h1>New Features in Version 1.00</h1>
+						<pre>
+ - Starting taihen now shows a freeze situation instructions
+ - Removed most debug logging
+ - Minor UI tweaks
+						</pre>
+					</div>
+				</div>
