@@ -18,7 +18,7 @@
 <meta name="theme-color" content="light dark">
     <link rel="shortcut icon" type="image/x-icon" href="https://thexgamelord.github.io/favicon.ico">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
       <style>
     body {
@@ -45,7 +45,28 @@
       line-height: 1;
       text-shadow: 0 0 4px #00ff00;
     }
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: cyan;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: orange;
+      background-color: transparent;
+      text-decoration: underline;
+    }
   </style>
+    <base target="_blank">
   </head>
 
   <body>
@@ -129,15 +150,21 @@ if( agent.indexOf("PlayStation Vita") !== -1 ) {
       <td>Make MC servers faster to Setup with MinecraftServerAutoSetup. on Windows and Linux</td>
       <td><a href="https://msas-txgl.pages.dev/">Homepage</a></td>
     </tr>
+    <!-- IGNORE: this is just to make it easier to copy new ones -->
     <tr>
       <td>IIO</td>
       <td>With <strong>IsItOnline</strong> you can quickly check if a webservice is online more info -&gt; <a href="/iio">here</a></td>
       <td><a href="https://github.com/ThexGameLord/IIO">repo</a></td>
-    </tr>
     <tr>
       <td>TXCORD</td>
       <td>With <strong>TXCORD</strong> you can use this application to host an API built on custom http and is able to send data to an external site</td>
       <td><a href="https://github.com/ThexGameLord/TXCORD/">repo</a></td>
+    </tr>
+    <tr>
+      <td>HeHeSPY</td>
+      <td>my attempt at making a 100% python gamespy server. please note that newer games wont work with this as the most likely use SOAP for the login auth</td>
+      <td style="color: red;">Not all services are working yet, and im the only one working on this so you will have to use another open source gamespy server for all besides the GPCM and GPSP server, until i possibly find out how to make those servers</td>
+      <td><a href="https://github.com/ThexGameLord/HeHeSPY">repo</a></td>
     </tr>
   </tbody>
 </table>
@@ -147,8 +174,7 @@ if( agent.indexOf("PlayStation Vita") !== -1 ) {
 
         <div id="footer">
           <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/ThexGameLord">ThexGameLord</a></span>
-          <span class="credits right">Hosted on <s>GitHub Pages</s> <b>Cloudflare pages</b></span>
+          <span class="credits">Project maintained by <a href="https://github.com/ThexGameLord">ThexGameLord</a></span>
         </div>
       </section>
 
