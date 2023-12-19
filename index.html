@@ -95,7 +95,7 @@ if( agent.indexOf("PlayStation Vita") !== -1 ) {
     </tr>
   </tbody>
 </table>
-<script>M.toast({html: 'Thank you for visiting my repo some of these projects may have bugs please be sure to report them in the issues section on their linked repository so i can fix them, thank you!, I am still in the process of changing the pages to work better with cloudflare'})</script>
+<script>M.toast({html: 'Thank you for visiting my repo some of these projects may have bugs please be sure to report them in the issues section on their linked repository so i can fix them, thank you!, I am still in the process of changing the pages to work better with cloudflare', displayLength: 9000, classes: 'rounded'})</script>
 
 
 
@@ -109,11 +109,10 @@ if( agent.indexOf("PlayStation Vita") !== -1 ) {
 
     
   
-<script>
-var audio = new Audio('/audio/xbox-rare-achievement.mp3');
-audio.play();
-    
-</script>
+<audio autoplay  id="playAudio">
+    <source src="/audio/xbox-rare-achievement.mp3">
+</audio>
+
 
 <script>
      var audio1 = document.getElementById('audio1');
