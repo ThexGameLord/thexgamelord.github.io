@@ -95,6 +95,9 @@ if( agent.indexOf("PlayStation Vita") !== -1 ) {
     </tr>
   </tbody>
 </table>
+          <audio autoplay id="playAudio">
+    <source src="/audio/xbox-rare-achievement.mp3">
+</audio>
 <script>M.toast({html: 'Thank you for visiting my repo some of these projects may have bugs please be sure to report them in the issues section on their linked repository so i can fix them, thank you!, I am still in the process of changing the pages to work better with cloudflare', displayLength: 9000, classes: 'rounded'})</script>
 
 
@@ -107,28 +110,5 @@ if( agent.indexOf("PlayStation Vita") !== -1 ) {
 
     </div>
 
-    
-  
-<audio autoplay  id="playAudio">
-    <source src="/audio/xbox-rare-achievement.mp3">
-</audio>
 
-
-<script>
-     var audio1 = document.getElementById('audio1');
-     var audio2 = document.getElementById('audio2');
-      document.addEventListener('click', function() {
-      playAudio();
-      document.removeEventListener('click', arguments.callee);
-    });
-
-    function playAudio() {
-      setTimeout(function() {
-        audio1.play();
-        setTimeout(function() {
-          audio2.play();
-        }, 9000); // Wait for 9 seconds before playing audio2
-      }, 0); // Delay the audio playback to ensure it starts after the click event
-    }
-  </script>
 </body></html>
