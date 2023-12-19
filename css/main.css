@@ -5,7 +5,7 @@
     body {
       margin: 0;
       padding: 0;
-      overflow: hidden;
+      /*overflow: hidden;*/
       background-color: black;
       font-family: 'Courier New', monospace;
       text-align: center;
